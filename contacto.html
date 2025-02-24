@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maderera Gascón - Contacto</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Cabecera común -->
+  <header>
+    <div class="container header-container">
+      <div class="logo">
+        <h1>Maderera Gascón</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="productos.html">Productos</a></li>
+          <li><a href="servicios.html">Servicios</a></li>
+          <li><a href="sobre.html">Sobre Nosotros</a></li>
+          <li><a href="contacto.html" class="active">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Sección Hero -->
+  <section class="hero" style="background-image: url('https://picsum.photos/seed/contact/1200/300');">
+    <div class="hero-content container">
+      <h2>Contacto</h2>
+    </div>
+  </section>
+
+  <!-- Formulario y Datos de Contacto -->
+  <main class="section">
+    <div class="container">
+      <h2>Ponte en Contacto</h2>
+      <div class="contact-container">
+        <div class="contact-info">
+          <h3>Información de Contacto</h3>
+          <p><strong>Teléfonos:</strong> 011 4864-8880 / 4864-4356 / 4864-2412</p>
+          <p><strong>WhatsApp:</strong> 11-6303-9984</p>
+          <p><strong>Email:</strong> <a href="mailto:info@madereragascon.com.ar">info@madereragascon.com.ar</a></p>
+          <p><strong>Dirección:</strong> Gascón 1027, Almagro, Buenos Aires</p>
+        </div>
+        <div class="contact-form">
+          <h3>Envíanos un Mensaje</h3>
+          <form action="#" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+            <button type="submit" class="btn">Enviar</button>
+          </form>
+        </div>
+      </div>
+      <!-- Mapa embebido -->
+      <div class="mapa">
+        <iframe src="https://www.google.com/maps?q=Gasc%C3%B3n+1027,+Almagro,+Buenos+Aires&output=embed" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+  </main>
+
+  <!-- Pie de Página -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Maderera Gascón. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+</body>
+</html>
