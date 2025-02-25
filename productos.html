@@ -20,45 +20,113 @@
           <li><a href="productos.html" class="active">Productos</a></li>
           <li><a href="servicios.html">Servicios</a></li>
           <li><a href="sobre.html">Sobre Nosotros</a></li>
-          <li><a href="contacto.html">Contacto</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
   <!-- Sección Hero con imagen representativa -->
-  <section class="hero" style="background-image: url('https://picsum.photos/seed/productos/1200/300');">
+  <section class="hero-section" style="background-image: url('https://picsum.photos/seed/productos/1200/300');">
     <div class="hero-content container">
       <h2>Nuestros Productos</h2>
+      <p>Variedad, calidad y asesoramiento experto en todo tipo de maderas.</p>
     </div>
   </section>
 
-  <!-- Galería de Productos -->
-  <main class="section">
-    <div class="container">
-      <div class="grid">
-        <article class="card">
-          <img src="https://picsum.photos/seed/maderas1/400/250" alt="Maderas">
-          <h3>Maderas</h3>
-          <p>Amplia variedad de maderas nacionales e importadas de alta calidad. Disponibles en maderas blandas, semiduras y duras.</p>
-        </article>
-        <article class="card">
-          <img src="https://picsum.photos/seed/placas/400/250" alt="Placas y Revestimientos">
-          <h3>Placas y Revestimientos</h3>
-          <p>Placas y revestimientos para diferentes aplicaciones y acabados.</p>
-        </article>
-        <article class="card">
-          <img src="https://picsum.photos/seed/molduras/400/250" alt="Molduras y Zócalos">
-          <h3>Molduras y Zócalos</h3>
-          <p>Diseños únicos y variedad en tamaños para embellecer tus espacios.</p>
-        </article>
-        <article class="card">
-          <img src="https://picsum.photos/seed/insumos/400/250" alt="Insumos y Accesorios">
-          <h3>Insumos y Accesorios</h3>
-          <p>Todo lo necesario para tus proyectos de carpintería, con insumos y accesorios de calidad.</p>
-        </article>
+  <main>
+    <!-- Sección de introducción -->
+    <section class="page-section">
+      <div class="container">
+        <h2>Catálogo de Productos</h2>
+        <p>En Maderera Gascón ofrecemos una amplia gama de productos en madera: desde maderas nacionales e importadas, hasta placas, revestimientos, molduras, zócalos e insumos. Descubre a continuación una selección de nuestros productos destacados.</p>
       </div>
-    </div>
+    </section>
+
+    <!-- Sección de tarjetas (cards) -->
+    <section class="page-section">
+      <div class="container grid">
+        <!-- Card 1 -->
+        <div class="highlight-card">
+          <div class="card-image">
+            <img src="https://picsum.photos/seed/maderas1/400/250" alt="Maderas">
+          </div>
+          <div class="card-content">
+            <div class="card-title">
+              <h3>Maderas</h3>
+            </div>
+            <div class="card-text">
+              <p>Amplia variedad de maderas nacionales e importadas de alta calidad.</p>
+            </div>
+          </div>
+          <div class="card-footer">
+            <button class="expand-btn" data-popup="popup1">Ver más</button>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="highlight-card">
+          <div class="card-image">
+            <img src="https://picsum.photos/seed/placas/400/250" alt="Placas y Revestimientos">
+          </div>
+          <div class="card-content">
+            <div class="card-title">
+              <h3>Placas y Revestimientos</h3>
+            </div>
+            <div class="card-text">
+              <p>Variedad de placas y revestimientos para diferentes aplicaciones y acabados.</p>
+            </div>
+          </div>
+          <div class="card-footer">
+            <button class="expand-btn" data-popup="popup2">Ver más</button>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="highlight-card">
+          <div class="card-image">
+            <img src="https://picsum.photos/seed/molduras/400/250" alt="Molduras y Zócalos">
+          </div>
+          <div class="card-content">
+            <div class="card-title">
+              <h3>Molduras y Zócalos</h3>
+            </div>
+            <div class="card-text">
+              <p>Diseños únicos y variedad en tamaños para embellecer tus espacios.</p>
+            </div>
+          </div>
+          <div class="card-footer">
+            <button class="expand-btn" data-popup="popup3">Ver más</button>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="highlight-card">
+          <div class="card-image">
+            <img src="https://picsum.photos/seed/insumos/400/250" alt="Insumos y Accesorios">
+          </div>
+          <div class="card-content">
+            <div class="card-title">
+              <h3>Insumos y Accesorios</h3>
+            </div>
+            <div class="card-text">
+              <p>Todo lo necesario para tus proyectos de carpintería, con insumos y accesorios de calidad.</p>
+            </div>
+          </div>
+          <div class="card-footer">
+            <button class="expand-btn" data-popup="popup4">Ver más</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección adicional para ampliar contenido -->
+    <section class="page-section">
+      <div class="container">
+        <h2>¿Por Qué Elegir Nuestros Productos?</h2>
+        <p>En Maderera Gascón, combinamos la experiencia y la pasión por la madera con la calidad de nuestras materias primas. Trabajamos de la mano con proveedores nacionales e internacionales para garantizar que cada pieza que adquieras cumpla con los más altos estándares.</p>
+        <!-- Puedes agregar más contenido aquí -->
+      </div>
+    </section>
   </main>
 
   <!-- Pie de Página -->
@@ -67,5 +135,139 @@
       <p>&copy; 2025 Maderera Gascón. Todos los derechos reservados.</p>
     </div>
   </footer>
+
+  <!-- Popups con contenido ampliado -->
+  <div id="popup1" class="popup hidden">
+    <div class="popup-content">
+      <button class="popup-close">&times;</button>
+      <div class="popup-header">
+        <img src="https://picsum.photos/seed/maderasDetalle/600/300" alt="Detalle Maderas">
+        <h2>Maderas</h2>
+      </div>
+      <div class="popup-body">
+        <p><strong>Descripción:</strong> Ofrecemos una amplia gama de maderas, incluyendo maderas blandas, semiduras y duras, cuidadosamente seleccionadas y tratadas para garantizar la mejor calidad y resistencia.</p>
+        <p><strong>Especificaciones Técnicas:</strong></p>
+        <ul>
+          <li>Procedencia: Nacional e importada</li>
+          <li>Proceso de secado: Natural y en horno</li>
+          <li>Tratamientos: Ecológicos y químicos</li>
+          <li>Usos: Construcción, mobiliario, decoración y estructuras</li>
+        </ul>
+        <p><strong>Certificaciones y Calidad:</strong> Nuestras maderas cumplen con los estándares internacionales, garantizando un producto duradero y estéticamente superior.</p>
+        <p><strong>Recomendaciones de Uso:</strong> Consulta nuestras fichas técnicas para conocer la madera ideal para cada tipo de proyecto.</p>
+        <p><strong>Galería Adicional:</strong></p>
+        <div class="popup-gallery">
+          <img src="https://picsum.photos/seed/maderas1/200/150" alt="Madera 1">
+          <img src="https://picsum.photos/seed/maderas2/200/150" alt="Madera 2">
+          <img src="https://picsum.photos/seed/maderas3/200/150" alt="Madera 3">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="popup2" class="popup hidden">
+    <div class="popup-content">
+      <button class="popup-close">&times;</button>
+      <div class="popup-header">
+        <img src="https://picsum.photos/seed/placasDetalle/600/300" alt="Detalle Placas y Revestimientos">
+        <h2>Placas y Revestimientos</h2>
+      </div>
+      <div class="popup-body">
+        <p><strong>Descripción:</strong> Contamos con una variada selección de placas y revestimientos que ofrecen múltiples opciones para aplicaciones decorativas y funcionales.</p>
+        <p><strong>Especificaciones Técnicas:</strong></p>
+        <ul>
+          <li>Materiales: Melamina, MDF, fenólicos y OSB</li>
+          <li>Resistencia: Alta resistencia a la humedad e ignición</li>
+          <li>Acabados: Texturas y colores variados</li>
+          <li>Usos: Muebles, paneles decorativos y revestimientos de paredes</li>
+        </ul>
+        <p><strong>Beneficios:</strong> Nuestros productos garantizan durabilidad y un acabado profesional en cualquier espacio.</p>
+        <p><strong>Galería Adicional:</strong></p>
+        <div class="popup-gallery">
+          <img src="https://picsum.photos/seed/placas1/200/150" alt="Placa 1">
+          <img src="https://picsum.photos/seed/placas2/200/150" alt="Placa 2">
+          <img src="https://picsum.photos/seed/placas3/200/150" alt="Placa 3">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="popup3" class="popup hidden">
+    <div class="popup-content">
+      <button class="popup-close">&times;</button>
+      <div class="popup-header">
+        <img src="https://picsum.photos/seed/moldurasDetalle/600/300" alt="Detalle Molduras y Zócalos">
+        <h2>Molduras y Zócalos</h2>
+      </div>
+      <div class="popup-body">
+        <p><strong>Descripción:</strong> Selección exclusiva de molduras y zócalos que resaltan la belleza de tus espacios con diseños adaptables a diversos estilos.</p>
+        <p><strong>Especificaciones Técnicas:</strong></p>
+        <ul>
+          <li>Material: Maderas macizas y compuestas</li>
+          <li>Perfiles: Recto, colonial, romano, entre otros</li>
+          <li>Dimensiones: Varias opciones para adaptarse a tus necesidades</li>
+          <li>Usos: Acabados para puertas, ventanas y pisos</li>
+        </ul>
+        <p><strong>Instalación y Mantenimiento:</strong> Contamos con asesoramiento profesional e instrucciones detalladas para una instalación óptima.</p>
+        <p><strong>Galería Adicional:</strong></p>
+        <div class="popup-gallery">
+          <img src="https://picsum.photos/seed/molduras1/200/150" alt="Moldura 1">
+          <img src="https://picsum.photos/seed/molduras2/200/150" alt="Moldura 2">
+          <img src="https://picsum.photos/seed/molduras3/200/150" alt="Moldura 3">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="popup4" class="popup hidden">
+    <div class="popup-content">
+      <button class="popup-close">&times;</button>
+      <div class="popup-header">
+        <img src="https://picsum.photos/seed/insumosDetalle/600/300" alt="Detalle Insumos y Accesorios">
+        <h2>Insumos y Accesorios</h2>
+      </div>
+      <div class="popup-body">
+        <p><strong>Descripción:</strong> Encuentra todos los insumos y accesorios necesarios para lograr acabados profesionales en carpintería, con productos seleccionados por su durabilidad y resistencia.</p>
+        <p><strong>Especificaciones Técnicas:</strong></p>
+        <ul>
+          <li>Productos: Barnices, lacas, tornillos, adhesivos, herrajes y complementos</li>
+          <li>Calidad: Materiales de alta durabilidad y resistencia</li>
+          <li>Aplicaciones: Recomendados para acabados, refuerzos y decoraciones</li>
+          <li>Compatibilidad: Adecuados para distintos tipos de madera y superficies</li>
+        </ul>
+        <p><strong>Soporte Técnico:</strong> Asesoría especializada para seleccionar y aplicar cada producto según las necesidades de tu proyecto.</p>
+        <p><strong>Galería Adicional:</strong></p>
+        <div class="popup-gallery">
+          <img src="https://picsum.photos/seed/insumos1/200/150" alt="Insumo 1">
+          <img src="https://picsum.photos/seed/insumos2/200/150" alt="Insumo 2">
+          <img src="https://picsum.photos/seed/insumos3/200/150" alt="Insumo 3">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Script para manejar los popups -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const expandButtons = document.querySelectorAll('.expand-btn');
+      expandButtons.forEach((btn) => {
+        btn.addEventListener('click', () => {
+          const popupId = btn.getAttribute('data-popup');
+          const popup = document.getElementById(popupId);
+          if (popup) {
+            popup.classList.remove('hidden');
+          }
+        });
+      });
+
+      const closeButtons = document.querySelectorAll('.popup-close');
+      closeButtons.forEach((btn) => {
+        btn.addEventListener('click', () => {
+          const popup = btn.closest('.popup');
+          popup.classList.add('hidden');
+        });
+      });
+    });
+  </script>
 </body>
 </html>
