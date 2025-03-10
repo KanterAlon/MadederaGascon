@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <title>Maderera Gascón - Servicios</title>
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600&display=swap" rel="stylesheet">
@@ -26,7 +26,7 @@
   </header>
 
   <!-- Sección Hero -->
-  <section class="hero-section" style="background-image: url(img/10.png)">
+  <section class="hero-section" style="background-image: url('img/10.png')">
     <div class="hero-content container">
       <h2>Nuestros Servicios</h2>
       <p>Transformamos tus ideas en proyectos de carpintería a medida.</p>
@@ -38,29 +38,49 @@
     <section class="page-section">
       <div class="container">
         <h2>Servicios Destacados</h2>
-        <p>En Maderera Gascón ofrecemos una variedad de servicios para asegurar que tus proyectos de madera se ejecuten de manera profesional y con resultados de calidad.</p>
+        <p>
+          En Maderera Gascón ofrecemos una variedad de servicios para asegurar que tus proyectos de madera se ejecuten de manera profesional y con resultados de calidad.
+        </p>
       </div>
     </section>
 
-    <!-- Sección con Tarjetas (Listado de Servicios -->
+    <!-- Sección con Tarjetas (Listado de Servicios) -->
     <section class="page-section">
-      <div class="container grid">
-        <article class="card">
-          <img src="img/11.png" alt="Carpintería a Medida">
-          <h3>Carpintería a Medida</h3>
-          <p>Realizamos proyectos personalizados para el hogar, oficinas y locales comerciales, con asesoramiento integral y planos a medida.</p>
+      <div class="container services-grid">
+        <article class="service-card">
+          <div class="service-card-image">
+            <img src="img/11.png" alt="Carpintería a Medida">
+          </div>
+          <div class="service-card-content">
+            <h3>Carpintería a Medida</h3>
+            <p>
+              Realizamos proyectos personalizados para el hogar, oficinas y locales comerciales, con asesoramiento integral y planos a medida.
+            </p>
+          </div>
         </article>
 
-        <article class="card">
-          <img src="img/12.png" alt="Asesoría Profesional">
-          <h3>Asesoría Profesional</h3>
-          <p>Nuestro equipo experto te guía en la elección del mejor material y en la optimización de tus proyectos.</p>
+        <article class="service-card">
+          <div class="service-card-image">
+            <img src="img/12.png" alt="Asesoría Profesional">
+          </div>
+          <div class="service-card-content">
+            <h3>Asesoría Profesional</h3>
+            <p>
+              Nuestro equipo experto te guía en la elección del mejor material y en la optimización de tus proyectos.
+            </p>
+          </div>
         </article>
 
-        <article class="card">
-          <img src="img/13.png" alt="Instalación y Montaje">
-          <h3>Instalación y Montaje</h3>
-          <p>Ofrecemos servicios de instalación y montaje para asegurar que cada proyecto se ejecute con precisión y cumpla con los estándares de calidad.</p>
+        <article class="service-card">
+          <div class="service-card-image">
+            <img src="img/13.png" alt="Instalación y Montaje">
+          </div>
+          <div class="service-card-content">
+            <h3>Instalación y Montaje</h3>
+            <p>
+              Ofrecemos servicios de instalación y montaje para asegurar que cada proyecto se ejecute con precisión y cumpla con los estándares de calidad.
+            </p>
+          </div>
         </article>
       </div>
     </section>
